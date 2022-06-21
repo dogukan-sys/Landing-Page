@@ -3,20 +3,6 @@ body {
   margin: 0;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 12px 250px
-}
-
-.logo {
-  font-size: 24px;
-  color: #F9FAF8;
-  font-weight: bold;
-  
-}
-
 ul {
   display: flex;
   margin: 0;
@@ -35,4 +21,68 @@ a {
   background-color: #1F2937;
 }
 
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 250px
+}
+
+.logo {
+  font-size: 24px;
+  color: #F9FAF8;
+  font-weight: bold;
+  
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hero {
+  display: flex;
+  padding: 100px 250px 150px;
+  gap: 50px;
+  
+}
+
+.hero-text {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.hero-img {
+  flex: 1;
+  background-color: gray;
+}
+
+
+.text-main {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+  
+}
+
+.text-sec {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.signup {
+  padding: 4px 24px;
+  font-size: 16px;
+  font-weight: 800;
+  max-width: fit-content;
+  border: 5px solid #3882F6;
+  border-radius: 8px;
+  border-color: #3882F6;
+  background-color: #3882F6;
+}
 
