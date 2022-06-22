@@ -58,8 +58,13 @@ a {
 }
 
 .hero-img {
+  display: flex;
   flex: 1;
   background-color: gray;
+  color: #E5E7EB;
+  justify-content: center;
+  align-items: center;
+
 }
 
 
