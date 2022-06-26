@@ -36,35 +36,27 @@ a {
   
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-
-}
-
-.hero {
+.box {
   display: flex;
   padding: 100px 250px 150px;
-  gap: 50px;
-  
+  justify-content: space-between;
 }
 
 .hero-text {
   display: flex;
-  flex: 1;
   flex-wrap: wrap;
   flex-direction: column;
   gap: 12px;
+  max-width: 350px;
 }
 
 .hero-img {
   display: flex;
-  flex: 1;
   background-color: gray;
   color: #E5E7EB;
   justify-content: center;
   align-items: center;
-
+  max-width: 350px;
 }
 
 
@@ -90,4 +82,3 @@ a {
   border-color: #3882F6;
   background-color: #3882F6;
 }
-
