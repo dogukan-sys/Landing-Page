@@ -36,11 +36,16 @@ a {
   
 }
 
-.box {
+.box{
   display: flex;
   padding: 100px 250px 150px;
-  justify-content: space-between;
 }
+
+.a {
+  justify-content: space-between;
+} 
+
+
 
 .hero-text {
   display: flex;
@@ -81,4 +86,13 @@ a {
   border-radius: 8px;
   border-color: #3882F6;
   background-color: #3882F6;
+}
+
+.b {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
 }
