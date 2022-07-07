@@ -192,8 +192,13 @@ p.bottom {
   border-radius: 8px;
   border-color: #ffffff;
   background-color: #3882F6;
-
 }
 
+footer {
+  background-color: #1F2937;
+  color: #979ea8;
+  text-align: center;
+  padding: 20px 0;
+} 
 
 
