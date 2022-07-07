@@ -136,7 +136,6 @@ div.framebox {
 }
 
 p.quote {
-  font: ;
   font-size: 36px;
   font-weight: 200;
 }
@@ -147,3 +146,54 @@ p.author {
   text-align: right;
   color: #1F2937;
 }
+
+.d {
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  padding-right:50px ;
+  fle
+}
+
+.action {
+  width: 900px;
+  height: 100px;
+  padding: 40px 100px;
+  display: flex;
+  border-radius: 10px;
+  background-color: #3882F6;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.call {
+  display: flex;
+  flex-direction: column;
+}
+
+p.top {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+p.bottom {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.action > .signup {
+  padding: 4px 24px;
+  font-size: 20px;
+  font-weight: 600;
+  max-width: fit-content;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  border-color: #ffffff;
+  background-color: #3882F6;
+
+}
+
+
+
