@@ -42,7 +42,7 @@ a {
 
 .box{
   display: flex;
-  padding: 100px 250px 150px;
+  padding: 150px 250px;
 }
 
 .a {
@@ -109,11 +109,12 @@ a {
   gap: 50px;
 }
 
-.framebox {
+div.framebox {
   display: flex;
   flex-direction: column;
   text-align: center;  
-  font-size: 16px;
+  font-size: 14px;
+  font-weight:400;
   color: #979ea8;
   height: 200px;
   width: 200px;
@@ -137,12 +138,12 @@ a {
 p.quote {
   font: ;
   font-size: 36px;
-  font-weight: 100;
+  font-weight: 200;
 }
 
 p.author {
-  font-size: 28px;
-  font-weight: 900;
+  font-size: 22px;
+  font-weight: 500;
   text-align: right;
   color: #1F2937;
 }
